@@ -1,6 +1,4 @@
-// prvo smo dodali u html-u za svaki input on change da 
-// se pozove  sljedeca funkcija/ cim se nesto promjeni
-// poziva se funkcija
+
 
 
 function racunaj() {
