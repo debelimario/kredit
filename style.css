@@ -17,10 +17,10 @@ body {
 }
 
 .input {
-    width: 80%;
+    width: 60%;
     font-size: 30px;
     height: 50px;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
 }
 
