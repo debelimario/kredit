@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontejner">
+        <h1>Racunanje kredita</h1>
+        <p>iznos kredita € <input onchange="racunaj()" class="input" type="number" id= "iznos"
+             min="1000" max="10000000 " value="10000" step="1000"> </p>
+        <p>kamata % <input onchange="racunaj()" class="input" type="number" id= "kamata"
+                min="0" max="75" value="3.5" step=".1"> </p>
+        <p>mjesecne otplate<input onchange="racunaj()" class="input" type="number" id= "mjesecne-otplate"
+                    min="6" max="360" value="48" step="6"> </p>
+                    <p class="rata" id="rata">rata:</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
